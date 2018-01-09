@@ -1,0 +1,1 @@
+:%s/\s\+$// | norm ^[OP17Gd2^[OB15GP18Gwi ^[29Gwi ^[gg=G

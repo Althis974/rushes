@@ -1,0 +1,18 @@
+M-g g 5
+C-<Space>
+M-g g 8
+C-w
+M-g g 3
+C-y
+M-f <Space>
+M-g g 17
+M-f <Space>
+M-g g 20
+M-e
+C-k
+M-g g 18
+M-z t t
+C-c C-h
+M-g g 12 <Enter>
+C-x h
+M-x indent-region
