@@ -6,7 +6,7 @@
 #    By: rlossy <marvin@le-101.fr>                  +:+   +:    +:    +:+      #
 #                                                  #+#   #+    #+    #+#       #
 #    Created: 2018/02/21 12:59:41 by rlossy       #+#   ##    ##    #+#        #
-#    Updated: 2018/02/21 15:26:33 by rlossy      ###    #+. /#+    ###.fr      #
+#    Updated: 2018/10/17 10:14:01 by rlossy      ###    #+. /#+    ###.fr      #
 #                                                          /                   #
 #                                                         /                    #
 # **************************************************************************** #
@@ -19,8 +19,8 @@ require "colorize"
 require "colorized_string"
 
 # Credentials
-UID = "0a703d2ff1289873a04fffde34b77e33a31ef4b2c5270bf27a25388dbbb53e34"
-SECRET = "9bb09210d0325edc20798c63ff97959d925bf3c87b3d6022a4e9973fce72c04d"
+UID = "{insert_user_id}"
+SECRET = "{insert_secret_key}"
 
 # Create the client with your credentials
 client = OAuth2::Client.new(UID, SECRET, site: "https://api.intra.42.fr")
